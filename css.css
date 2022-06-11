@@ -1,0 +1,47 @@
+body {
+  background-color: gainsboro;
+  margin: 0;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin: 10px 0;
+}
+
+.column > img {
+  height: 85px;
+  margin: 0 auto;
+  display: block;
+}
+
+p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+  display: block;
+  width: 90%;
+  height: 105px;
+  border: 1px solid;
+  border-radius: 45px;
+  background-color: white;
+  margin: 40px auto;
+}
+
+.singleImg {
+  height: 350px;
+  border: 1px solid;
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 520px) {
+  .singleImg {
+    height: 500px;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "freedom.github.io",
+  "version": "1.0.0",
+  "description": "Freedom single website for tagomagoband.com",
+  "main": "test/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sserolf/freedom.github.io.git"
+  },
+  "author": "sserolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sserolf/freedom.github.io/issues"
+  },
+  "homepage": "https://github.com/sserolf/freedom.github.io#readme",
+  "devDependencies": {
+    "electron": "^19.0.4"
+  }
+}
