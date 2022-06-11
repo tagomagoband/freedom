@@ -13,6 +13,7 @@ body {
   height: 85px;
   margin: 0 auto;
   display: block;
+  cursor: pointer;
 }
 
 p {
