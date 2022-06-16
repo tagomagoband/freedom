@@ -27,7 +27,11 @@ p {
   border: 1px solid;
   border-radius: 45px;
   background-color: white;
-  margin: 40px auto;
+  margin: 30px auto;
+}
+
+.secondRow {
+  margin-bottom: 45px;
 }
 
 .singleImg {
@@ -36,6 +40,19 @@ p {
   margin: 0 auto;
   display: block;
   margin-top: 50px;
+}
+
+.ytColumn {
+  width: 100% !important;
+}
+
+.ytImg {
+  height: 125px !important;
+}
+
+.ytRow {
+  width: 50% !important;
+  height: 135px !important;
 }
 
 @media screen and (min-width: 520px) {
